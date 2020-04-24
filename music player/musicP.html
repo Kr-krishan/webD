@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Raleway&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+	<link rel="stylesheet" type="text/css" href="musicP.css">
+</head>
+<body>
+	<div class="container">
+		<div class="nav-container-1">
+			<div class="logo">
+				<div class="company-img"><i class="fas fa-headphones-alt"></i></div>
+				<div class="company-text">Ninja Studio</div>
+			</div>
+			<div class="nav-top">
+				<ul>
+					<li class="nav-item fav">
+						<a href="#" style="color: grey;">Favourites</a>
+					</li>
+					<li class="nav-item search-bar">
+						<a href="#" class="inside-search search-icon"><i class="fab fa-sistrix"></i></a>
+						<label for="search"></label>
+						<input type="text" name="search" id="search" placeholder="search">
+						<a href="#" class="inside-search mic"><i class="fas fa-microphone"></i></a>
+					</li>
+					<li class="nav-item notification">
+						<a href="#"><i class="fas fa-bell"></i></a>
+					</li>
+				</ul>
+			</div>
+			<div class="menu-icon">
+				<div class="menu-icon-img">
+					<i class="fas fa-bars"></i>
+				</div>
+				<ul class="menu-list">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Favourites</a></li>
+					<li><a href="#">Settings</a></li>
+					<li><a href="#">Contact us</a></li>
+				</ul>
+			</div>
+			<div class="user-img">
+				<a href="#"><img src="https://c.saavncdn.com/artists/Snoop_Dogg_20200216071418_150x150.jpg" alt="user-img"></a>
+			</div>
+		</div>
+		<div class="nav-container-2">
+			<div class="nav-bottom">
+				<div class="song-playing ">
+					<div class="song-img ">
+						<img src="https://img.wynk.in/unsafe/150x150/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/1566875956/srch_zeemusic_INZ031406006.jpg">
+					</div>
+					<div class="song-about ">
+						<h3 class="color-white">Imagine By John Lennon</h3>
+						<p class="color-grey">John Lennon</p>
+					</div>
+					<div class="song-options">
+						<ul class="color-grey">
+							<li><i class="far fa-heart"></i></li>
+							<li><i class="far fa-circle"></i></li>
+						</ul>
+					</div>
+				</div>
+				<div class="song-length-bar">
+					<div class="song-shuffle">
+						<a href="#"><i class="fas fa-random"></i></a>
+						<a href="#"><i class="fas fa-step-backward"></i></a>
+						<a href="#" class="play"><i class="far fa-play-circle"></i></a>
+						<a href="#"><i class="fas fa-step-forward"></i></a>
+						<a href="#"><i class="fas fa-sync-alt"></i></a>
+					</div>
+					<div class="song-len-track">
+						<div class="curr-time time">1:24</div>
+						<div class="outer-bar">
+							<div class="inner-bar"></div>
+						</div>
+						<div class="end-time time">4:44</div>
+					</div>
+				</div>
+				<div class="sound-bar">
+					<ul>
+						<li class="sound-bar-items ">
+							<i class="fas fa-list-ul"></i>
+						</li>
+						<li class="sound-bar-items">
+							<i class="fas fa-broadcast-tower"></i>
+						</li>
+						<li class="sound-bar-items volume-button">
+							<i class="fas fa-volume-up"></i>
+						</li>
+						<li class="sound-bar-items volume-bar">
+							<div class="len-outer">
+								<div class="len-inner"></div>
+							</div>
+						</li>
+						<li class="sound-bar-items color-white">
+							<i class="fas fa-expand-alt"></i>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="main-content">
+				<div class="items item-1 home-carousel">
+					<div class="images-box image-1">
+						<img src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Stay@home-720x251hnplup.png" alt="">
+					</div>
+					<div class="images-box image-2">
+						<img src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/filtrtrendingthisweek.jpg" alt="">
+					</div>
+					<div class="images-box image-3">
+						<img src="https://img.wynk.in/unsafe/720x251/filters:no_upscale():format(webp)/https://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Home-Workout-MIX-1440X502.png"  alt="">
+					</div>
+				</div>
+				<div class="items item-2 latest-release">
+					<div class="latest-release-heading">
+						<h3 class="color-white">Latest Realease</h3>
+					</div>
+					<div class="latest-release-container">
+						<div class="containers container-1 ">
+							<div class="img-container ">
+								<img src="https://img.wynk.in/unsafe/180x180/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Nostalgia-300x30011.png">
+							</div>
+							<div class="details ">
+								<h3 class="color-white song-heading">Onism</h3>
+								<p class="color-grey release-date">AUG 18,2020</p>
+							</div>
+							<div class="options ">
+								<p class="color-grey option-icon"><i class="fas fa-ellipsis-h"></i></p>
+								<p class="color-grey song-duration">4:44</p>
+							</div>
+						</div>
+						<div class="containers container-1">
+							<div class="img-container ">
+								<img src="https://img.wynk.in/unsafe/180x180/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Nostalgia-300x30011.png">
+							</div>
+							<div class="details ">
+								<h3 class="color-white song-heading">Onism</h3>
+								<p class="color-grey release-date">AUG 18,2020</p>
+							</div>
+							<div class="options ">
+								<p class="color-grey option-icon"><i class="fas fa-ellipsis-h"></i></p>
+								<p class="color-grey song-duration">4:44</p>
+							</div>
+						</div>
+						<div class="containers container-1 ">
+							<div class="img-container ">
+								<img src="https://img.wynk.in/unsafe/180x180/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Nostalgia-300x30011.png">
+							</div>
+							<div class="details">
+								<h3 class="color-white song-heading">Onism</h3>
+								<p class="color-grey release-date">AUG 18,2020</p>
+							</div>
+							<div class="options ">
+								<p class="color-grey option-icon"><i class="fas fa-ellipsis-h"></i></p>
+								<p class="color-grey song-duration">4:44</p>
+							</div>
+						</div>
+						<div class="containers container-1 ">
+							<div class="img-container ">
+								<img src="https://img.wynk.in/unsafe/180x180/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/Nostalgia-300x30011.png">
+							</div>
+							<div class="details ">
+								<h3 class="color-white song-heading">Onism</h3>
+								<p class="color-grey release-date">AUG 18,2020</p>
+							</div>
+							<div class="options">
+								<p class="color-grey option-icon"><i class="fas fa-ellipsis-h"></i></p>
+								<p class="color-grey song-duration">4:44</p>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="items item-3 pop-artists">
+					<div class="pop-artist-heading">
+						<h3 class="color-white">&nbsp Popular Artists</h3>
+					</div>
+					<div class="pop-artist-container">
+						<div class="Artists artist-1">
+							<a href="artists.html" target="blank"><img src="https://a10.gaanacdn.com/images/playlists/71/15505171/crop_175x175_15505171_1513764461.jpg" alt="coldplay">
+							<h4 class="center color-white">ColdPlay</h4></a>
+						</div>
+						<div class="Artists artist-2">
+							<a href="artists.html" target="blank"><img src="https://c.saavncdn.com/artists/Snoop_Dogg_20200216071418_150x150.jpg" alt="Snoop Dogg">
+							<h4 class="center color-white">Snoop Dogg</h4></a>
+						</div>
+						<div class="Artists artist-3">
+							<a href="artists.html" target="blank"><img src="https://lh3.googleusercontent.com/DCsmWmIEbwCT0H9kxDYeybYLHLwaLRS5GEzQ2fsMl9hppyAei8SC1z0QKknTK3c15h0XQpL1B5-B5AY=w544-h544-p-l90-rj" alt="britney-img">
+							<h4 class="center color-white">Britney Spears</h4></a>
+						</div>
+						<div class="Artists artist-4">
+							<a href="artists.html" target="blank"><img src="https://img.wynk.in/unsafe/275x275/filters:no_upscale():format(webp)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/Guru-Randhawa-300x300.png" alt="guru">
+							<h4 class="center color-white">Guru Randhawa</h4></a>
+						</div>
+						<div class="Artists artist-5">
+							<a href="artists.html" target="blank"><img src="https://img.wynk.in/unsafe/180x180/filters:no_upscale():format(webp)/https://s3-ap-south-1.amazonaws.com/wynk-music-cms/music/package/neha%20300.jpg" alt="Neha Kakkar">
+							<h4 class="center color-white">Neha Kakkar</h4></a>
+						</div>
+						<div class="Artists artist-6">
+							<a href="artists.html" target="blank"><img src="https://c.saavncdn.com/artists/Atif_Aslam_150x150.jpg" alt="Atif Aslam"></a>
+							<a href="artists.html" target="blank"><h4 class="center color-white">Atif Aslam</h4></a>
+						</div>
+					</div>
+				</div>
+				<div class="items item-4 radio-stations">
+					<div class="stations station-1">
+						<img src="https://c.saavncdn.com/editorial/Classics-30s&amp;40s_saavn_radio_150x150.jpg" alt="Classics 30s and 40s Radio">
+						<h4 class="center color-white">Stations</h4>
+					</div>
+					<div class="stations station-2 love">
+						<img src="https://c.saavncdn.com/editorial/LoveNotes_150x150.jpg" alt="Love Notes Radio">
+						<h4 class="center color-white theText">love</h4>
+					</div>
+					<div class="stations station-3 Retro">
+						<img src="https://c.saavncdn.com/editorial/Retro-70s&amp;80s_saavn_radio_150x150.jpg" alt="Retro 70s and 80s Radio">
+						<h4 class="center color-white theText">Retro</h4>
+					</div>
+					<div class="stations station-4 Chill">
+						<img src="https://c.saavncdn.com/editorial/Chill_150x150.jpg" alt="Chill Radio">
+						<h4 class="center color-white theText">Chill</h4>
+					</div>
+					<div class="stations station-5 Workout">
+						<img src="https://c.saavncdn.com/editorial/Workout_150x150.jpg" alt="Workout Radio">
+						<h4 class="center color-white theText">Workout</h4>
+					</div>
+					<div class="stations station-6 Rock">
+						<img src="https://c.saavncdn.com/editorial/Chill_150x150.jpg" alt="Chill Radio">
+						<h4 class="center color-white theText">Rock</h4>
+					</div>
+					<div class="stations station-7 Pop">
+						<img src="https://c.saavncdn.com/editorial/Retro-70s&amp;80s_saavn_radio_150x150.jpg" alt="Retro 70s and 80s Radio">
+						<h4 class="center color-white theText">Pop</h4>
+					</div>
+				</div>
+				<div class="items item-5 discover-music">
+					<div class="discover party">
+						<img src="https://hdwallsource.com/img/2014/7/party-wallpaper-25863-26547-hd-wallpapers.jpg" alt="party-img">
+						<h4 class="center color-white text">Party</h4>
+					</div>
+					<div class="discover edm">
+						<img src="https://www.lucidsamples.com/blog/wp-content/uploads/2015/11/dj_generic-1500x1000.jpg" alt="edm-image">
+						<h4 class="center color-white text">Electronic</h4>
+					</div>
+					<div class="discover road-trip">
+						<img src="https://icdn2.digitaltrends.com/image/digitaltrends/young-couple-driving-convertible-at-sunset.jpg" alt="road-trip-img">
+						<h4 class="center color-white text">Road Trip</h4>
+					</div>
+				</div>
+				<div class="items item-6 latest-release-english">
+					<div class="latest-release-heading">
+						<h3 class="color-white">Latest English</h3>
+					</div>
+					<div class="latest-song-container">
+						<div class="songs song-1">
+							<img src="https://c.saavncdn.com/230/808s-Heartbreak-English-2008-500x500.jpg" alt="heart-img">
+							<h4 class="color-white">Heartless</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-2">
+							<img src="https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg" alt="reputation Songs">
+							<h4 class="color-white">Reputation</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-3">
+							<img src="https://c.saavncdn.com/230/808s-Heartbreak-English-2008-500x500.jpg" alt="heart-img">
+							<h4 class="color-white">Heartless</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-4">
+							<img src="https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg" alt="reputation Songs">
+							<h4 class="color-white">Reputation</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-5">
+							<img src="https://c.saavncdn.com/230/808s-Heartbreak-English-2008-500x500.jpg" alt="heart-img">
+							<h4 class="color-white">Heartless</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-6">
+							<img src="https://c.saavncdn.com/140/reputation-English-2017-20171130120722-500x500.jpg" alt="reputation Songs">
+							<h4 class="color-white">Reputation</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+					</div>
+				</div>
+				<div class="items item-7 latest-release-hindi">
+						<div class="latest-release-heading">
+							<h3 class="color-white">Latest Hindi</h3>
+						</div>
+						<div class="latest-song-container">
+						<div class="songs song-1">
+							<img src="https://c.saavncdn.com/991/Genda-Phool-Hindi-2020-20200325120350-150x150.jpg" alt="Genda Phool Songs">
+							<h4 class="color-white">Genda Phool</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-2">
+							<img src="https://c.saavncdn.com/862/Love-Aaj-Kal-Hindi-2020-20200214140423-150x150.jpg" alt="Love Aaj Kal Songs">
+							<h4 class="color-white">Love Aaj Kal</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-3">
+							<img src="https://c.saavncdn.com/991/Genda-Phool-Hindi-2020-20200325120350-150x150.jpg" alt="Genda Phool Songs">
+							<h4 class="color-white">Genda Phool</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-4">
+							<img src="https://c.saavncdn.com/862/Love-Aaj-Kal-Hindi-2020-20200214140423-150x150.jpg" alt="Love Aaj Kal Songs">
+							<h4 class="color-white">Love Aaj Kal</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-5">
+							<img src="https://c.saavncdn.com/991/Genda-Phool-Hindi-2020-20200325120350-150x150.jpg" alt="Genda Phool Songs">
+							<h4 class="color-white">Genda Phool</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+						<div class="songs song-6">
+							<img src="https://c.saavncdn.com/862/Love-Aaj-Kal-Hindi-2020-20200214140423-150x150.jpg" alt="Love Aaj Kal Songs">
+							<h4 class="color-white">Love Aaj Kal</h4>
+							<h4 class="color-grey">AUG 18,2020</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="aside-section queue">
+				<div class="q-items q-1">
+					<div>
+						<h3 class="color-white">Queue</h3>
+					</div>
+					<div id="q-dropdown">
+						<span>
+							<h4 class="queue">Queue</h4>
+						</span>
+						<span id="dropdown-icon">
+							<i class="fas fa-chevron-circle-down"></i>
+						</span>
+						<div id="dropdown-item" class="color-white">
+							<p>Playlists</p>
+							<hr class="style-one">
+							<p>Favourite Songs</p>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-2">
+					<div class="q-song-img q-song-1">
+						<span class="color-grey q-serial">01</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/49/13374249/crop_175x175_1563437817_13374249.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-3">
+					<div class="q-song-img q-song-2">
+						<span class="color-grey q-serial">02</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/38/30888538/crop_175x175_1553698934_30888538.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-4">
+					<div class="q-song-img q-song-3">
+						<span class="color-grey q-serial">03</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/49/13374249/crop_175x175_1563437817_13374249.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-5">
+					<div class="q-song-img q-song-4">
+						<span class="color-grey q-serial">04</span>
+						<span><img src="https://c.saavncdn.com/editorial/RapGodEminem_99974731_20171017_150x150.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-6">
+					<div class="q-song-img q-song-5">
+						<span class="color-grey q-serial">05</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/49/13374249/crop_175x175_1563437817_13374249.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-7">
+					<div class="q-song-img q-song-6">
+						<span class="color-grey q-serial">06</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/38/30888538/crop_175x175_1553698934_30888538.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-8">
+					<div class="q-song-img q-song-7">
+						<span class="color-grey q-serial">07</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/49/13374249/crop_175x175_1563437817_13374249.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-9">
+					<div class="q-song-img song-8">
+						<span class="color-grey q-serial">08</span>
+						<span><img src="https://c.saavncdn.com/editorial/RapGodEminem_99974731_20171017_150x150.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-10">
+					<div class="q-song-img q-song-9">
+						<span class="color-grey q-serial">09</span>
+						<span><img src="https://a10.gaanacdn.com/images/playlists/49/13374249/crop_175x175_1563437817_13374249.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+				<div class="q-items q-11">
+					<div class="q-song-img q-song-10">
+						<span class="color-grey q-serial">10</span>
+						<span><img src="https://c.saavncdn.com/editorial/RapGodEminem_99974731_20171017_150x150.jpg" alt="song-thumb"></span>
+						<i class="fas fa-play hover-button"></i>
+					</div>
+					<div class="q-song-details">
+						<div class="song-details">
+							<p class="color-white ">Mirage</p>
+							<p class="color-grey">Else</p>
+							<span class="add-fav"><i class="far fa-heart"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
