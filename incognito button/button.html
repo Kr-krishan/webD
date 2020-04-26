@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Switch Button</title>
+	<style type="text/css">
+		.container{
+			min-width: 150px;
+			max-width: 300px;
+			margin:10% auto;
+			position: relative;
+		}
+		#toggle{
+			height: 50px;
+			border: 2px solid #d7aaaa;
+			border-radius: 36px;
+			transition: all 0.4s ease-in-out;
+		}
+		.dot-circle{
+			height: 40px;
+			width: 40px;
+			border:1px solid #ebe4e4;
+			border-radius: 50%;
+			position: absolute;
+			z-index: 1;
+			top: 10%;
+			left: 2%;
+			box-shadow: 0px 0px 4px 4px rgba(230,196,196,0.3);
+			transition: all 0.4s ease-in-out;
+		}
+		
+	</style>
+	
+</head>
+<body>
+	<div class="container">
+		<input type="toggle" id="toggle" name="toggle">
+    	<div class="dot-circle"></div>
+    </div>
+
+    <script type="text/javascript">
+    	var section=document.querySelector('#toggle');
+    	var button=document.querySelector('.dot-circle');
+    	var isgreen=false;
+    	button.addEventListener('click',function(){
+    		if(!isgreen){
+    			isgreen=true;
+    			button.style.left='30%';
+    			section.style.background="#4bde4b";
+    			section.style.border="none";
+    			button.style.background="white";
+    			return;
+    		}else{
+    			isgreen=false;
+    			button.style.left='2%';
+    			section.style.background="white";
+    			section.style.border="2px solid #d7aaaa";
+    			return;
+    		}
+    		
+    	});
+    </script>
+</body>
+</html>
